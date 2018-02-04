@@ -16,9 +16,9 @@ function latex(strings, ...values) {
 	}
 }
 
-const latexDocument = latex`
-	\newcommand{\fun}{\textbf{Beispiel}}     // Funktioniert
-	\newcommand{\unicode}{\textbf{Beispiel}} // Bisher Fehler, da ungültiges Token
-	\newcommand{\xerxes}{\textbf{Beispiel}}  // Bisher Fehler, da ungültiges Token
-`;
-console.log(latexDocument);
+// const latexDocument = latex`
+// 	\newcommand{\fun}{\textbf{Beispiel}}     // Works
+// 	\newcommand{\unicode}{\textbf{Beispiel}} // Does not work because of invalid token
+// 	\newcommand{\xerxes}{\textbf{Beispiel}}  // Does not work because of invalid token
+// `;
+// console.log(latexDocument);
