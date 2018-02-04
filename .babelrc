@@ -1,0 +1,10 @@
+{
+	"presets": [
+		"env"
+	],
+	"plugins": [
+		"transform-async-generator-functions",
+		"transform-modern-regexp",
+		"transform-object-rest-spread"
+	]
+}
