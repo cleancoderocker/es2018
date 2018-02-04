@@ -1,0 +1,1 @@
+This repository contains source code examples for ES2018.
